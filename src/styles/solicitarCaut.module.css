@@ -1,0 +1,24 @@
+.Container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 17% 83%;
+    background-color: rgb(245, 245, 245);
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.painel{
+    width: 50%;
+}

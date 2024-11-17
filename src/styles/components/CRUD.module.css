@@ -1,0 +1,130 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+    border-radius: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.options{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sumario{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+}
+
+.sumario h1{
+    font-size: 20px;
+}
+
+.painel{
+    overflow-y: scroll;
+}
+.icons{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.icon1{
+    margin-right: 20px;
+}
+
+.divider{
+    border: none;
+    border-top: 2px groove rgb(208, 208, 208); /* Linha divisória */
+    margin: 0; /* Remove margens extras */
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addbutton{
+    background-color: rgb(57, 215, 57);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-style: roboto;
+    height: 42px;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.addbutton:hover{
+    background-color: rgb(25, 164, 25);
+}
+
+
+.modaloverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Borrar o fundo */
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.modalcontent {
+    background-color: #49a9f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+.delbutton {
+    background-color: #fb3333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 42px;
+}
+
+.delbutton:hover{
+    background-color: #e12f2f;
+}
+
+.closeoption{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.closebutton{
+    background: none;
+    border: none;
+    cursor: pointer;
+}

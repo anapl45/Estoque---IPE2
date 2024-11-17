@@ -1,0 +1,29 @@
+.container{
+    width:  85%;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tittle{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #0f0049;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.divider{
+    border: none;
+    border-top: 2px groove rgb(208, 208, 208); /* Linha divisória */
+    margin: 0; /* Remove margens extras */
+}
