@@ -37,8 +37,8 @@ function CRUD3(){
                 <h1>Aluno</h1>
                 <h1>Posto/Grad</h1>
                 <h1>Item</h1>
-                <h1>Tamanho</h1>
                 <h1>Quantidade</h1>
+                <h1>Tamanho</h1>
             </div>
             <hr className={styles.divider}></hr>
             <div className={styles.painel}>
