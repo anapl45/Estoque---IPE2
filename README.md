@@ -1,23 +1,9 @@
-# 📦 EstoqueTreino
+Para visualizar a aplicação, é necessário ter o Node.js instalado na máquina.
 
-Aplicação Web desenvolvida para gerenciar o funcionamento de estoque no contexto da **Seção de Material** do **Instituto Militar de Engenharia**.  
-(Semelhante a um sistema de estoque de biblioteca.)
+Instruções de Instalação:
 
----
-
-## 🚀 Tecnologias Utilizadas
-
-- **React**
-- **Firebase**
-
----
-
-## 🛠️ Funcionalidades Pendentes
-
-- [ ]  **Sistema de busca** nas cautelas realizadas.
-- [ ]  **Tratamento de erros de login**.
-
----
+Ao baixar a pasta com os arquivos, execute o comando: npm install. (Note que após isso a pasta node_modules deve ter sido criada)
+Posteriormente execute o comando: npm start. (A aplicação será hospedada no localhost e vai iniciar sozinha) 
 
 
 
